@@ -1,0 +1,81 @@
+.app-aboutus{
+    position: relative;
+}
+
+.app-aboutus-overlay{
+    position: absolute;
+    inset: 0;
+}
+
+.app-aboutus-overlay img{
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+
+.app-aboutus-content{
+    width: 100%;
+    z-index: 2;
+}
+
+.app-aboutus-content-about{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.app-aboutus-content-knife{
+    margin: 2rem 4rem;
+    z-index: 1;
+}
+
+.app-aboutus-content-knife img{
+    width: 84px;
+    height: 703px;
+}
+
+.app-aboutus-content-history{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.app-aboutus-content-about p, .app-aboutus-content-history p{
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
+
+@media screen and (min-width: 2000px) {
+    .app-aboutus-content-knife img{
+        height: 1110px;
+    }
+
+    .app-aboutus-content-about p, 
+    .app-aboutus-content-history p{
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .app-aboutus-content{
+        flex-direction: column;
+    }
+
+    .app-aboutus-content-knife{
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app-aboutus-overlay img{
+        width: 80%;
+        height: 320px;
+    }
+}
