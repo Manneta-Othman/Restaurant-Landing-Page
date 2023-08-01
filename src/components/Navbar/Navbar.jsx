@@ -19,7 +19,7 @@ const Navbar = () => {
       <li className="p-opensans"><a href="#home">Home</a></li>
       <li className="p-opensans"><a href="#about">About</a></li>
       <li className="p-opensans"><a href="#menu">Menu</a></li>
-      <li className="p-opensans"><a href="#Awards">Awards</a></li>
+      <li className="p-opensans"><a href="#awards">Awards</a></li>
       <li className="p-opensans"><a href="#contact">Contact</a></li>
     </ul>
 
