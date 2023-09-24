@@ -2,7 +2,7 @@ import React from 'react';
 
 import './MenuItem.css';
 
-const MenuItem = ( { title, price, tags, key } ) => (
+const MenuItem = ( { title, price, tags } ) => (
   <div className='app-menuitem'>
     <div className="app-menuitem-head">
       <div className="app-menuitem-name">

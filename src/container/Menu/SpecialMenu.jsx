@@ -1,11 +1,16 @@
 import React from 'react';
 
-import { SubHeading, MenuItem } from '../../components';
-import {images, data} from '../../constants';
-
 import './SpecialMenu.css';
 
-const SpecialMenu = () => (
+import { SubHeading, MenuItem } from '../../components';
+import data from '../../constants/data';
+import images from '../../constants/images';
+
+
+
+export default function SpecialMenu() {
+
+  return(
   <div className='app-specialMenu flex-center section-padding' id='menu'>
     <div className="app-specialMenu-title">
       <SubHeading title='Menu that fits you palatte' />
@@ -42,5 +47,4 @@ const SpecialMenu = () => (
 
   </div>
 );
-
-export default SpecialMenu;
+}

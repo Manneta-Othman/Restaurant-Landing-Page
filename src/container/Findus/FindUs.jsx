@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
-import { images } from '../../constants';
+import images from '../../constants/images'
 
 const FindUs = () => (
   <div className='app-bg app-wrapper section-padding'>

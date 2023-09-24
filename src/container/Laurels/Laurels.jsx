@@ -1,7 +1,9 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
-import { images, data } from '../../constants';
+import images from '../../constants/images'
+import data from '../../constants/data'
+
 import './Laurels.css';
 
 const AwardCard = ({award: {imgUrl, title, subtitle}}) => (
